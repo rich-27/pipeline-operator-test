@@ -12,6 +12,9 @@
     "@babel/core": "^7.28.4",
     "@babel/eslint-parser": "^7.28.4",
     "@babel/plugin-proposal-pipeline-operator": "^7.27.1",
-    "eslint": "^9.36.0"
+    "@babel/preset-env": "^7.28.3",
+    "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "3.6.2"
   }
 }
