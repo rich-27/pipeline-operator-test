@@ -1,0 +1,17 @@
+{
+  "name": "pipeline-operator-test",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "test.js",
+  "scripts": {
+    "build": "babel test.js -d built",
+    "execute": "npm run build && node built/test.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.4",
+    "@babel/eslint-parser": "^7.28.4",
+    "@babel/plugin-proposal-pipeline-operator": "^7.27.1",
+    "eslint": "^9.36.0"
+  }
+}
